@@ -30,7 +30,7 @@ Step 3: create Dockerfile at root folder
 		ENTRYPOINT [ "java", "-jar","spring-boot-docker-demo-01.jar" ]
 
 		
-Step 4. build the docker image file below below command[Go to application rrot folder where docker file located]
+Step 4. build the docker image file below below command[Go to application root folder where docker file located]
   
         docker build -t spring-boot-docker-demo-01.jar
 
